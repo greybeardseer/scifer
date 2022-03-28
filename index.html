@@ -69,20 +69,37 @@
                     /></a>
         <!-- Instructions on using this project -->
         <div class="instructions">
-         <section>
+         
+          
+          <section>
           <section><h2>
             Twitch
-            </h2></section>
+            </h2>
+            
+             <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "monstercat",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["embed.example.com", "othersite.example.com"]
+      });
+    </script>
+           </section>
+           
+           <!-- begin Discord -->
                     <section><h2>
                       Discord
                       </h2>
-                       <video controls autoplay>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+   
            </section>
-           
+           <!-- Begin Youtube -->
           <section><h2>
                       Youtube
                         <video controls autoplay>
