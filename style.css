@@ -96,7 +96,7 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #FFFFFF;
+  color: #ffd700;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -223,6 +223,12 @@ h2 {
 }
 
 /* paragraph*/
-p{
+#subtitle{
   color: yellow;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 105%;
+  margin: 0;
 }
