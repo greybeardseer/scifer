@@ -234,7 +234,7 @@ h2 {
 }
 
 /*  video backgound  */
-
+.vbg{
 * {
   box-sizing: border-box;
 }
@@ -275,4 +275,5 @@ body {
 #myBtn:hover {
   background: #ddd;
   color: black;
+}
 }
