@@ -96,6 +96,7 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
+  background-color: #ffffff;
   color: #ffd700;
   font-family: HK Grotesk;
   font-style: normal;
