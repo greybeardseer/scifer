@@ -4,7 +4,7 @@
 
 /* Our default values set as CSS variables */
 :root {
-  background-image: url("starry.jpg");
+  --background-image: url("starry.jpg");
   --color-bg: #000000;
   --color-text-main: #FFFFFF;
   --color-primary: #fcf003;
