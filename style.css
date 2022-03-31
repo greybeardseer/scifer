@@ -77,8 +77,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: HK Grotesk;
-  background-image: url("starry.jpg");
-  background-color: var(--color-bg);
+  
 }
 
 /* Page structure */
