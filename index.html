@@ -85,9 +85,24 @@
           
           <!-- Start Columns-->
         <div class="row">
-  <div class="column" style="background-color:#aaa;">
+  <div class="column" style="background-color:#000000;">
     <h2>Twitch</h2>
-    <p>Some text..</p>
+    <p style="color: white;">Some text..</p>
+      <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="<player div ID>"></div>
+<script type="text/javascript">
+  var options = {
+    width: <width>,
+    height: <height>,
+    channel: "<#100 devs>",
+    video: "<video ID>",
+    collection: "<collection ID>",
+    // only needed if your site is also embedded on embed.example.com and othersite.example.com
+    parent: ["embed.example.com", "othersite.example.com"]
+  };
+  var player = new Twitch.Player("<player div ID>", options);
+  player.setVolume(0.5);
+</script>
   </div>
   <div class="column" style="background-color:#bbb;">
     <h2>Discord</h2>
@@ -104,21 +119,7 @@
 </div>
         
          
-        <div id="twitch-embed"></div>
-
-    <!-- Load the Twitch embed JavaScript file -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 500,
-        height: 175,
-        channel: "monstercat",
-        // Only needed if this page is going to be embedded on other websites
-        parent: ["embed.example.com", "othersite.example.com"]
-      });
-    </script>     
+      
             
           
   <div class="column" style="background-color: #e0b4b4"></div>
