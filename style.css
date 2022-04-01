@@ -225,6 +225,7 @@ h2 {
 
 /* paragraph*/
 #subtitle{
+  background-color: #000000;
   color: yellow;
   font-family: HK Grotesk;
   font-style: normal;
@@ -232,6 +233,8 @@ h2 {
   font-size: 70px;
   line-height: 105%;
   margin: 0;
+  text-align
+  
 }
 
 
